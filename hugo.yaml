@@ -1,10 +1,10 @@
 ---
-title: "Zen demo site"
-baseURL: "https://zen-demo.xdeb.org/"
+title: "Zen Book Club"
+baseURL: "https://english-reading-club.github.io/zen-book-club/"
 theme: "github.com/frjo/hugo-theme-zen/v5"
 copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> license.<!--/Creative Commons License-->'
 languageCode: "en-GB"
-defaultContentLanguage: "en"
+defaultContentLanguage: "zh"
 pluralizelisttitles: false
 removePathAccents: true
 rssLimit: 20
@@ -21,6 +21,9 @@ markup:
       unsafe: true
   highlight:
     style: github
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
 
 outputFormats:
   SearchIndex:
@@ -35,10 +38,10 @@ outputs:
 
 params:
   author:
-    name: "Fredrik Jonsson"
-    url: "https://xdeb.org"
-  contact: "frjo@xdeb.org"
-  description: "The zen theme for Hugo demo site."
+    name: "Jizu Sun"
+    url: "https://github.com/jizusun"
+  contact: "https://github.com/jizusun"
+  description: "Zen Book Club"
   dateformat: "2 January, 2006"
   favicon: "apple-touch-icon.png"
   feedlinks: true
@@ -56,8 +59,27 @@ params:
   submitted: true
 
 languages:
-  en:
+  zh:
     weight: 1
+    languageName: "中文"
+    languageCode: "zh-CN"
+    contentDir: content/zh
+    menu:
+      main:
+        - Name: "首页"
+          weight: -10
+          pageRef: "/"
+        - Name: "博客"
+          weight: 2
+          pageRef: "/blog/"
+        - Name: "搜索"
+          weight: 10
+          pageRef: "/search/"
+        - Name: "联系"
+          weight: 12
+          pageRef: "/contact/"
+  en:
+    weight: 2
     languageName: "English"
     languageCode: "en-GB"
     contentDir: content/en
@@ -69,30 +91,10 @@ languages:
         - Name: "Blog"
           weight: 2
           pageRef: "/blog/"
-        - Name: "Podcast"
-          weight: 4
-          pageRef: "/podcast/"
-        - Name: "Products"
-          weight: 6
-          pageRef: "/products/"
-        - Name: "Misc"
-          weight: 8
-          pageRef: "/misc/"
         - Name: "Search"
           weight: 10
           pageRef: "/search/"
         - Name: "Contact"
           weight: 12
           pageRef: "/contact/"
-
-  sv:
-    weight: 2
-    languageName: "Svenska"
-    languageCode: "sv-SE"
-    contentDir: content/sv
-    menu:
-      main:
-        - Name: "Hem"
-          weight: -10
-          pageRef: "/"
 
