@@ -1,11 +1,6 @@
-# Zen demo site
+# Zen Book Club
 
-The zen theme for Hugo demo site.
-
-* View the demo site: <https://zen-demo.xdeb.org>
-* Download theme at: <https://github.com/frjo/hugo-theme-zen>
-
-Feel free to use this repo as a template if you want it as a quickstart for your site. Use the green "Use this template" button above.
+A Hugo site using the Zen theme.
 
 ## Features
 
