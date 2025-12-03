@@ -1,6 +1,6 @@
 ---
-title: "Book 34 Session 8"
-date: 2025-12-03T12:23:43+08:00
+title: "Book 34: Nexus Chapter 3 - How Information Flows"
+date: 2025-12-03T10:23:43+08:00
 host: "Jizu"
 author: "Jizu"
 participants: []
