@@ -1,4 +1,13 @@
-# Book Club Session Plan: Nexus Chapter 11
+---
+title: "Book 34: Nexus Chapter 11 - Session Plan"
+date: 2026-02-04T09:14:00+08:00
+host: "Jizu"
+author: "Jizu"
+participants: []
+tags: ["Nexus"]
+toc: true
+---
+
 ## The Silicon Curtain: Global Empire or Global Split?
 
 **Duration:** 60 minutes  
