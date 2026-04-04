@@ -1,2 +1,6 @@
 [tools]
+go = "1.25.6"
 hugo-extended = "0.152.2"
+
+[tasks]
+start-dev = "hugo server ."
