@@ -1,4 +1,3 @@
-
 ---
 title: "Book 34: Nexus Chapter 11 - The Silicon Curtain"
 date: 2026-02-04T08:06:00+08:00
